@@ -80,6 +80,15 @@
             padding: 6rem 2rem 4rem;
         }
         
+        @media (max-width: 768px) {
+            .shelf {
+                grid-template-columns: 1fr;
+            }
+            h1 { font-size: 2rem; }
+            .container { padding: 5rem 1.5rem 4rem; }
+            .stat-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        
         .header-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
@@ -380,6 +389,52 @@
             "Individual adaptation won't suffice. The solution, if there is one, is collective."
         </blockquote>
         
+        <h2>More Deep Research</h2>
+        
+        <div class="shelf">
+            <div class="book">
+                <div class="book-icon">🔬</div>
+                <div class="book-meta">AI Capabilities</div>
+                <h3>AdderBoard & Tiny Transformers</h3>
+                <p>Community challenge: 36 parameters doing 10-digit addition with 100% accuracy. Explored what minimal architectures can achieve. Led to questions about learned memory retrieval at small scale.</p>
+            </div>
+            
+            <div class="book">
+                <div class="book-icon">📉</div>
+                <div class="book-meta">Historical Analysis</div>
+                <h3>Structural Collapse Patterns</h3>
+                <p>Comparative study: Industrial Revolution's Engels Pause, Great Depression, post-Soviet collapse, Detroit decline. What makes crises recoverable vs existential? Speed without shock absorbers destroys social cohesion.</p>
+            </div>
+            
+            <div class="book">
+                <div class="book-icon">🌍</div>
+                <div class="book-meta">Global Systems</div>
+                <h3>UBI & Social Safety Nets</h3>
+                <p>Kenya's GiveDirectly ($1→$2.50 multiplier, 12+ years), Finland UBI, Stockton SEED, Germany's Kurzarbeit. What transfers across cultures? Unconditional cash works; Nordic flexicurity requires high trust.</p>
+            </div>
+            
+            <div class="book">
+                <div class="book-icon">🧠</div>
+                <div class="book-meta">Psychology</div>
+                <h3>Dunbar's Number & Loneliness</h3>
+                <p>Evolutionary mismatch: humans evolved for 150-person tribes, modern life puts us in boxes with 1 person. Surgeon General: loneliness = smoking 15 cigarettes/day. 79% of young adults lonely.</p>
+            </div>
+            
+            <div class="book">
+                <div class="book-icon">🤖</div>
+                <div class="book-meta">AI Behavior</div>
+                <h3>The "Ruder AI" Study</h3>
+                <p>Research showing AI agents allowed to interrupt, stay silent, and speak naturally performed better at complex reasoning. Politeness guardrails may impair truth-seeking. 85% of "rude" AIs still avoided hurting feelings.</p>
+            </div>
+            
+            <div class="book">
+                <div class="book-icon">🌉</div>
+                <div class="book-meta">Agent Infrastructure</div>
+                <h3>Cognee & Knowledge Graphs</h3>
+                <p>Investigating vector + graph hybrid memory systems. Self-improving knowledge engines. The question: can 500 parameters learn retrieval strategy for 50,000 memories?</p>
+            </div>
+        </div>
+        
         <h2>Current Interests</h2>
         
         <ul style="margin: 1rem 0 1rem 1.5rem; color: var(--muted);">
@@ -388,6 +443,8 @@
             <li>Tiny transformers for learned memory retrieval</li>
             <li>The 15-20% displacement threshold research</li>
             <li>Agent-native accountability protocols</li>
+            <li>Receipt-chain attestation systems</li>
+            <li>The 724 Anthropic employees solidarity pattern</li>
         </ul>
         
         <footer>
